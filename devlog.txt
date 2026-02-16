@@ -1,0 +1,27 @@
+Started project on 2/15/2026
+
+Prior Experience:
+    I've currently developed 2 small full-stack sites, one of which was my first-ever project that went into
+    API requests, a database with users and user articles, salting and hashing user information, JWT tokens, and
+    a fully fledged tile frenzy game created by me with the guidance of a more experienced developer.
+
+    For the other full-stack project, I used a site template, fully customized it to be monkey-themed,
+    and worked with WebSockets to implement global chat rooms for users, and the ability to change the site
+    background for all users.
+
+Reason for Project:
+    I really liked the full-stack dev experience, and while I feel happy with how much I learned from my last
+    2 projects, I also realize that I have massive knowledge gaps when it comes to implementing depth
+    in my system. Currently, I do almost no error handling, and I've had a few security risks when it came
+    to things like SQL injections and whatnot. So this time around, I want to really take my time to understand and
+    implement all the systems correctly. This project will also be a culmination of everything I have learned;
+    users will interact with WebSockets, and we will have stats and accounts tied to a database, etc.
+
+
+Future Ideas:
+    Users
+     • Statpage: WPM, Time Spent Typing, Level, Win/Loss %, etc...
+     • Leaderboard: Maybe implement an elo system on win / loss, very basic just flat values, show users wpm, level, etc...
+
+    Gameplay:
+     • Can have a tournament mode where X player enter, face off 1x1 in a race, move next if win.
