@@ -25,3 +25,10 @@ Future Ideas:
 
     Gameplay:
      • Can have a tournament mode where X player enter, face off 1x1 in a race, move next if win.
+
+
+Actual Devlog Part - (gonna be rambly):
+
+    Setup Period:
+        Ive never woked with react, vite, or fastapi so i did have ai guide me through a lot of the initial setup and my first push to my repo just for ease.
+        the project will now fully be in my hands and ai will only be used as a tool to research and not to solve problems, as that would defeat the purpose of learning
