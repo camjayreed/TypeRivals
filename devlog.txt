@@ -17,6 +17,14 @@ Reason for Project:
     implement all the systems correctly. This project will also be a culmination of everything I have learned;
     users will interact with WebSockets, and we will have stats and accounts tied to a database, etc.
 
+Run Front/Back:
+    Front: npm run dev
+    Back: python.exe -m uvicorn app.main:app --reload --app-dir Backend
+
+Goals:
+     • Write type hints into all my functions
+     • Handle errors and edge cases better
+
 
 Future Ideas:
     Users
@@ -25,6 +33,9 @@ Future Ideas:
 
     Gameplay:
      • Can have a tournament mode where X player enter, face off 1x1 in a race, move next if win.
+
+    Themes:
+     give site settings menu, can select from a few color schemes
 
 
 Actual Devlog Part - (gonna be rambly):

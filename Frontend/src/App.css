@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+/* Globals */
+body {
+  background-color: rgb(220, 189, 160);
+
+  min-height: 100vh;
+}
+
+h1 {
+  color: rgb(93, 64, 55);
+}
+
+a {
+  color: rgb(93, 64, 55);
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(243, 237, 227);
+  padding: 1%;
+  margin: 0%;
+
+  box-shadow: .5px .5px 0px rgb(93, 64, 55);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  margin: 0%;
+  gap: 1rem;
+}
+
+/* Infobox */
+.infobox {
+  background-color: rgb(254, 246, 232);
+  box-shadow: .5px .5px 0px rgb(93, 64, 55);
+  margin-top: 1%;
+
+  display: flex;
+}
+
+.infobox-txt {
+  color: rgb(93, 64, 55);
+
+  display: block;
   text-align: center;
+  margin: 0 auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+.author {
+  color: rgb(93, 64, 55);
+  text-shadow: .1px px rgb(108, 78, 69);
+  border-left: 2px solid rgb(93, 64, 55);
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  padding-left: .2%;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  margin-top: auto;
+  position: fixed;
+  left: .6%;
+  bottom: 1%;
 }

@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="navbar">
+        {/* Not super sure what to put in the navbar */}
+        <h1>TypeRivals</h1>
+
+        <div className="nav-links">
+          <a href="">Login</a>
+          <a href="">Register</a>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+
+      <div className="infobox">
+        <div className="infobox-txt">
+          <p style={{ textDecoration: "underline", textUnderlineOffset: "35%" }}>Welcome to TypeRivals</p>
+          <p>TypeRivals is a real time online multiplayer typing PvP game</p>
+          <p> the goal is to out type the other player, win the match, and climb the ranks.</p>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <a href="https://github.com/camjayreed" className="author">Made By: Cameron Reed</a>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
