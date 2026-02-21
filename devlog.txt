@@ -17,6 +17,13 @@ Reason for Project:
     implement all the systems correctly. This project will also be a culmination of everything I have learned;
     users will interact with WebSockets, and we will have stats and accounts tied to a database, etc.
 
+Stack:
+    Backend: FastAPI
+    Frontend: React (Vite + TS)
+    DB: PostgreSQL
+    Realtime: WebSockets (in FastAPI)
+    Optional later: Redis, Docker deploy
+
 Run Front/Back:
     Front: npm run dev
     Back: python.exe -m uvicorn app.main:app --reload --app-dir Backend
@@ -29,6 +36,9 @@ Goals:
 Future Ideas:
     Users
      • Statpage: WPM, Time Spent Typing, Level, Win/Loss %, etc...
+        for statpage i think on user creation i will assign them a uid, and on requesting the stats page we can redirect them
+        to a page with thier uid in the url along with all stats stored for that uid
+        
      • Leaderboard: Maybe implement an elo system on win / loss, very basic just flat values, show users wpm, level, etc...
 
     Gameplay:
@@ -43,3 +53,9 @@ Actual Devlog Part - (gonna be rambly):
     Setup Period:
         Ive never woked with react, vite, or fastapi so i did have ai guide me through a lot of the initial setup and my first push to my repo just for ease.
         the project will now fully be in my hands and ai will only be used as a tool to research and not to solve problems, as that would defeat the purpose of learning
+
+
+    2/21/26:
+        coming back from weekend, dont remember where i am in the project, think i just finished basic frontend.
+        todays goal is to implement PostgreSQL and make the logic for our login / register.
+        just looking to make mvps tonight, if we can get basics working then we move to securing everything properly
