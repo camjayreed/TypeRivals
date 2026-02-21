@@ -56,6 +56,11 @@ Actual Devlog Part - (gonna be rambly):
 
 
     2/21/26:
-        coming back from weekend, dont remember where i am in the project, think i just finished basic frontend.
-        todays goal is to implement PostgreSQL and make the logic for our login / register.
-        just looking to make mvps tonight, if we can get basics working then we move to securing everything properly
+        before coding:
+            coming back from weekend, dont remember where i am in the project, think i just finished basic frontend.
+            todays goal is to implement PostgreSQL and make the logic for our login / register.
+            just looking to make mvps tonight, if we can get basics working then we move to securing everything properly
+        after coding:
+            took me wayyy longer than expected to implement PostgreSQL and actually setup all the code bits in the Backend
+            but i think i have a decent idea of how it all works now. didint have time for login / register logic today,
+            will get that implemented tomororow.
